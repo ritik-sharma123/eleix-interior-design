@@ -1,5 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
-
+const API_URL = import.meta.env.VITE_API_URL || "https://eleix-interior-design.onrender.com/api";
 function getToken() {
   return localStorage.getItem("eleix_token");
 }
